@@ -6,7 +6,7 @@ from sqlalchemy import Numeric
 from sqlalchemy import String
 from sqlalchemy.sql import func
 
-from .database import Base
+from database import Base
 
 
 class Product(Base):
