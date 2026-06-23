@@ -8,9 +8,9 @@ from sqlalchemy import desc
 from sqlalchemy import or_
 from sqlalchemy.orm import Session
 
-from .database import get_db
-from .models import Product
-from .schemas import ProductsListResponse
+from database import get_db
+from models import Product
+from schemas import ProductsListResponse
 
 router = APIRouter()
 
